@@ -61,7 +61,7 @@ function DropdownModel({ signedin,username,setSignedIn }) {
                 </ul>
             </div>
             {<div className="card-footer">
-                <div onClick={signOutHandler} className='btn-signin'><Link to=""to=''>{signedin ? "SIGN OUT" : "Sign in to MyBuildings"}</Link></div>
+                <div onClick={signOutHandler} className='btn-signin'><Link to="">{signedin ? "SIGN OUT" : "Sign in to MyBuildings"}</Link></div>
             </div>}
         </div>
     );
