@@ -20,7 +20,7 @@ const Header = ({detailData,contactData,error}) => {
  //const [closeAll, setCloseAll] = useState(false);
   
  // Manage dropdown visibility
-  //const [signedIn, setSignedIn] = useState(detailData.session_valid);
+  const [signedIn, setSignedIn] = useState(detailData.session_valid);
   //console.log("signedIn",signedIn)
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [soldToOpen, setSoldToOpen] = useState(false);
@@ -31,7 +31,7 @@ const Header = ({detailData,contactData,error}) => {
 
   const [selectedAccount, setSelectedAccount] = useState(localStorage.getItem('selectedAccount'));
 
-
+  console.log("signedin", signedIn)
   // Toggle dropdown visibility
   const toggleDropdown = (e) => {
     e.stopPropagation()
