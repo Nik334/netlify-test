@@ -17,21 +17,21 @@ function DropdownModel({ signedin,username,setSignedIn }) {
                 <ul>
                   { !signedin && <> <li className="list-item">
                         <span className="person-icon"></span>
-                        <Link to=""to="" >Create an Account</Link>
+                        <Link to="" >Create an Account</Link>
                     </li>
                     <li className="list-item">
                         <span className="document-icon"></span>
-                        <Link to=""to=" ">My Legacy Account</Link>
+                        <Link to="">My Legacy Account</Link>
                     </li>
                    </>}
                     { signedin && <> 
                         <li className="list-item">
                         <span className="person-icon"></span>
-                        <Link to=""to="" >My Account</Link>
+                        <Link to="">My Account</Link>
                     </li>
                     <li className="list-item">
                         <span className="document-icon"></span>
-                        <Link to=""to="" >My Profile</Link>
+                        <Link to="">My Profile</Link>
                     </li>
                     <li className="list-item">
                         <span className="person-icon"></span>
